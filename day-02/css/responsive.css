@@ -1,0 +1,72 @@
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@media only screen and (max-width: 1400px){
+    body{
+        background-color: rgb(211, 29, 156);
+    }
+    .text-2,.text-3,.text-4,.text-5,.text-6{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px){
+    body{
+        background-color: rgb(215, 139, 255);
+    }
+    .text-1,.text-3,.text-4,.text-5,.text-6{
+        display: none;
+    }
+    .text-2{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 992px){
+    body{
+        background-color: rgb(201, 92, 92);
+    }
+    .text-1,.text-2,.text-4,.text-5,.text-6{
+        display: none;
+    }
+    .text-3{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 760px){
+    body{
+        background-color: rgb(51, 243, 249);
+    }
+    .text-1,.text-2,.text-3,.text-5,.text-6{
+        display: none;
+    }
+    .text-4{
+        display: flex;
+    }
+}
+@media only screen and (max-width:576px){
+    body{
+        background-color:rgb(6, 254, 89) ;
+    }
+    .text-1,.text-2,.text-3,.text-4,.text-6{
+        display: none;
+    }
+    .text-5{
+        display: flex;
+    }
+}
+@media only screen and (max-width:576px){
+    body{
+        background-color:rgb(6, 254, 89) ;
+    }
+    .text-1,.text-2,.text-3,.text-4,.text-5{
+        display: none;
+    }
+    .text-6{
+        display: flex;
+    }
+}
+
+

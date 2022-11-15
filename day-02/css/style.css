@@ -1,0 +1,33 @@
+input{
+    width: 20px;
+    transition: width 2s;
+    border-radius: 20px;
+    background-image: url(../images/1000px-Search_Icon.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 17px;
+    box-sizing: border-box;
+}
+input:focus{
+    width: 80px;
+}
+img{
+    width: 20px;
+    position:absolute;
+}
+.square{
+width: 400px;
+height: 50px;
+font-size: 48px;
+transition: 1s;
+}
+.square:hover{
+    background-color: red;
+}
+.cycle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+
