@@ -1,0 +1,31 @@
+
+.img img{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+.img{
+    display: flex;
+    width: 100%;
+}
+.news img{
+    width: 200px;
+    height: 200px;
+}
+.news{
+    display: flex;
+}
+.leftside{
+    width: 70%;
+}
+.rightside{
+    width: 30%;
+}
+.down{
+    display: flex;
+}
+@media only screen and (max-width:1400px){
+    .img img {
+        width: 33%;
+    }
+}
