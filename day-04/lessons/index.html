@@ -13,23 +13,24 @@
 <body>
     <div class="container text-center">
         <div class="row">
-            <div class="col-2 bg-primary">Name</div>
-            <div class="col-8 bg-success">Menus</div>
-            <div class="col-2 bg-info">DropDown</div>
+            <div class="col-6 col-sm-2 bg-primary">Name</div>
+            <div class=" col-sm-8 bg-success d-sm-block d-none">Menus</div>
+            <div class="col-6 col-sm-2 bg-info">DropDown</div>
         </div>
     </div>
-    <div class="container text-center bg-dark">
+    <div class="col-fluid bg-success d-sm-none d-block ">Menus</div>
+    <div class="container  bg-dark">
         <div class="row">
-            <div class="col-3 bg-secondary">
-                <img src="/day-03/img/brooklyn.png" alt="" style="background-size: contain;">
-                <a href="#">links</a>
-                <a href="#">links</a>
-                <a href="#">links</a>
+            <div class="col-md-3 bg-secondary">
+                <img src="/day-03/img/brooklyn.png" alt="" class="img-fluid">
+                <a href="#" class="">link</a>
+                <a href="#" class="">links</a>
+                <a href="#" class="">links</a>
             </div>
 
             <div class="col-9">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-sm-3">
                         <div>
                             <h5 class="bg-warning">Title</h5>
                             <h6 class="bg-danger">Images</h6>
@@ -49,8 +50,8 @@
                     </div>
                     <div class="col-9">
                         <div class="row">
-                            <div class="col"><img src="/day-03/img/chigago.png" alt=""></div>
-                            <div class="col">
+                            <div class="col-12 col-md-6"><img src="/day-03/img/chigago.png" alt="" class="img-fluid"></div>
+                            <div class="col-12 col-md-6">
                                 <p class="bg-warning">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos qui
                                     debitis cumque
                                     neque vel aspernatur aliquam sit laudantium, numquam molestias nisi eum rem sint
@@ -74,9 +75,9 @@
                 <div>
                     <div class="bg-secondary row">
                         <h4 class="col">Settings</h4>
-                        <p class="col">Toggle</p>
-                        <p class="col">select</p>
-                        <p class="col">input</p>
+                        <p class="col bg-info">Toggle</p>
+                        <p class="col bg-info">select</p>
+                        <p class="col bg-info">input</p>
                     </div>
                     <div>
                         <a href="#" class="btn btn-primary">Cancel button</a>
