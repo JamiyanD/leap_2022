@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/day-06/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Document_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/style.css">
+</head>
+
+<body>
+    <div class="accordion" id="accordionExample" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                    this with custom CSS or overriding our default variables. It's also worth noting that just about any
+                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Carousel</h2>
+    <div id="carousel-demo" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item-active">
+                <img src="./Document_files/brooklyn.png" alt="" class="d-block w-50">
+            </div>
+            <div class="carousel-item-active">
+                <img src="./Document_files/chigago.png" alt="" class="d-block w-50">
+            </div>
+            <div class="carousel-item-active">
+                <img src="./Document_files/detroit.png" alt="" class="d-block w-50">
+            </div>
+        </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+
+    </div>
+    <button data-bs-toggle="collapse" data-bs-target="#demo">Collapsible</button>
+    <div id="demo" class="collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, minima.</div>
+
+    <h2> MODAL</h2>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#demo-modal">
+        OPEN MODAL
+    </button>
+    <div id="demo-modal" class="modal fade">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Modal body content
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal">Xaax</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <h2>Popover</h2>
+    <button type="button" class="btn btn-primary" data-bs-toggle="Popover" title="Popover header" data-bs-content="Some content inside the popover">
+        test
+    </button>
+
+
+
+
+
+
+    <script src="./Document_files/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
