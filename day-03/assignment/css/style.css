@@ -23,9 +23,21 @@
 }
 .down{
     display: flex;
+    flex-wrap: wrap;
 }
 @media  (max-width:1400px){
     .img-container img {
         width: 30%;
+    }
+    .leftside{
+        width: 100%;
+    }
+    .rightside{
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .img-container img{
+        width: 100%;
     }
 }

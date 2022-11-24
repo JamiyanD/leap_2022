@@ -1,12 +1,143 @@
+body{
+    margin: 0;
+}
+.last{
+    width: 1000px;
+    height: 1000px;
+    border: 20px solid lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+.last img{
+    width: 33.3%;
+    position:relative;
+    height: 33.3%;
+    background-color: grey;
+    filter: grayscale(100%);
+   
+}
+.last img:hover{
+    filter: none;
+    transition: 2s ;
+    
+
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+aside{
+    width: 20vw;
+    background-color: black;
+    height: 100vh;
+    opacity: 0.5;
+}
+.first{
+    background-color: green;
+    margin: 20px 0;
+    color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside:hover{
+    width:80vw;
+    transition: 2s;
+    opacity: 1;
+}
+.first:hover{
+    background-color: white;
+    color: black;
+}
+.first h1{
+    display: none;
+    font-size:48px;
+}
+aside:hover .first h1{
+    display: block;
+}
+aside button{
+    background-color: black;
+    color: white;
+    font-size: 48px;
+}
+.b{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+.big{
+    width: 500px;
+    height: 350px;
+    border:5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.small1{
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 10px 10px lightgray,-10px -10px 10px lightgrey;
+    margin: 10px;
+}
+.small2{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightpink;
+    opacity: 0.3; 
+}
+.up{
+    position: absolute;
+    display: flex;
+}
+.up:hover .small2{
+    margin: 150px;
+    transition-duration: 2s;
+    opacity: 1; 
+}
+.out{
+    width: 300px;
+    height: 100px;
+   background-color: lightgrey;
+   border-radius: 100px;
+   border: 1px solid black;
+   
+}
+.in{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+.in:focus{
+    margin-left: 200px;
+    transition-duration: 2s;
+}
+
+.out:hover{
+    transition-duration:2s;
+    background-color: green;
+}
+
 input{
     width: 20px;
-    transition: width 2s;
+    transition:  0.5s;
     border-radius: 20px;
     background-image: url(../images/1000px-Search_Icon.svg.png);
     background-size: contain;
     background-repeat: no-repeat;
     padding-left: 17px;
     box-sizing: border-box;
+    transition-timing-function: linear;
+    
 }
 input:focus{
     width: 80px;
@@ -15,19 +146,123 @@ img{
     width: 20px;
     position:absolute;
 }
-.square{
-width: 400px;
+.all{
+width: 350px;
 height: 50px;
 font-size: 48px;
-transition: 1s;
+
+position: relative;
+background-color: gray;
+color: white;
 }
-.square:hover{
+.all:hover{
     background-color: red;
+    transition: 2s;
 }
+
 .cycle{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: red;
+    background-color:red;
+    position:absolute;
+    top: -15px;
+    right: -15px;
+   
 }
+.all:hover .cycle{
+    transition-duration: 2s;
+    top:15px;
+    right: 200px;
+    opacity: 0;
+}
+.blue {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.blue:focus{
+    width: 100vw;
+    transition-duration: 2s;
+    background-color: aqua;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.green:hover{
+    width: 100vw;
+    transition-duration: 2s;
+}
+.aqua{
+    background-color: aqua;
+    width: 100vw;
+    height: 100px;
+    color: rgb(255, 138, 92);
+    display: flex;
+    align-items: center;
+}
+.aqua:hover{
+    background-color: brown;
+    height: 150px;
+    transition-duration: 1s;
+}
+.aqua p:hover{
+    font-size: 48px;
+    transition-duration: 2s;
+}
+.square2{
+    width: 50vw;
+    height: 50vh;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition-duration: 2s;
+}
+.cycle2 ,.cycle3 ,.cycle4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+   
+  
+}
+.cycle3{
+    background-color: green;
+ 
+
+  
+}
+.cycle4{
+    background-color: orange;
+ 
+
+}
+.square2:hover .cycle2{
+    margin-right: 45vw;
+    margin-bottom: 40vh;
+    transition-duration: 1s;
+    
+ 
+}
+.square2:hover .cycle4{
+    margin-top: 40vh;
+    transition: 1s;
+ 
+}
+.square2:hover .cycle3{
+    transition: 1s;
+    margin-left: 45vw;
+    margin-bottom: 40vh;
+    
+}
+.square2:hover .cycle4{
+    transition-delay: 1s;
+    margin-left:45vw;
+}
+
 

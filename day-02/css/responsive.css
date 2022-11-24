@@ -5,7 +5,12 @@ div{
     align-items: center;
     height: 100vh;
 }
-@media only screen and (max-width: 1400px){
+@media {
+    body{
+        background-color: lightgreen;
+    }
+}
+@media  (max-width: 1400px){
     body{
         background-color: rgb(211, 29, 156);
     }
