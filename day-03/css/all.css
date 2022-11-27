@@ -11,12 +11,14 @@ body{
 
 }
 nav{
-    background-color: lightgrey;
+    background-color: lightgreen;
+    font-size: 24px;
 }
 nav ul{
     
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 nav p{
     display: none;
@@ -33,7 +35,10 @@ nav p{
     background-color: lightgrey;
     padding: 30px;
 }
-
+.leftside img{
+    width: 100%;
+  
+}
 .leftside a{
     display: block;
     font-size: 32px;
@@ -44,6 +49,7 @@ nav p{
 }
 .leftside2{
     width: 30%;
+    
 }
 .small{
     background-color: orange;
@@ -52,8 +58,12 @@ nav p{
     align-items: center;
    margin: 20px;
 }
+.small:first-child{
+    margin-top: 0;
+}
 .leftside2 img{
-    width: 40%;
+    width: 100px;
+    
 }
 .leftside2 h1{
     margin: 0;
@@ -67,11 +77,15 @@ nav p{
 
 .settings{
     width: 100%;
-    background-color: brown;
+    background-color: aqua;
     
 }
 .main{
     display: flex;
+}
+.main img{
+  width: 50%;
+  
 }
 .right{
     display: flex;
@@ -80,6 +94,7 @@ nav p{
 .rightside2 {
     font-size: 24px;
     background-color: lightblue;
+    padding: 30px;
 }
 .settings2{
     display: flex;
@@ -111,8 +126,12 @@ footer{
         display: flex;
         align-items: center;
     }
+    .leftside img{
+        width: 300px;
+    }
     .leftside a{
         display: inline-block;
+        margin: 30px;
     }
     .rightside{
         width: 100%;
@@ -144,7 +163,7 @@ footer{
    }
    .rightside2{
     width: 100%;
-    margin-top: 500px;
+    
    }
    
    .main{

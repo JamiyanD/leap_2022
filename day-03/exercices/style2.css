@@ -15,27 +15,40 @@
     flex-wrap: wrap;
     padding: 100px;
 }
-.images img{
-    width: 25%;
+h1{
+    margin-left: 100px;
 }
-.images img:hover{
+
+.square{
+    width: 23%;
+    height: 300px;
+    border: 10px solid white;
+    box-sizing: border-box;
+    background-image: url(../img/photo-1661956602926-db6b25f75947.avif);
+    background-size: 100%;
+    
+}
+
+.images .square:hover{
     transition: 1s;
-    filter: grayscale(90%);
+    
+    background-color: gray;
+    background-blend-mode: multiply;
 }
 
 @media (max-width:1200px){
-    .images img{
+   .square{
         width: 33.33%;
     }
 }
 
 @media (max-width:992px){
-    .images img{
+    .images .square{
         width: 50%;
     }
 }
 @media (max-width:768px){
-    .images img{
+    .images .square{
         width: 100%;
     }
 }

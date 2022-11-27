@@ -44,14 +44,12 @@ header ul li a {
     text-decoration: none;
     display: block;
 }
-
-.bars img{
+.bars {
     display: none;
 }
 
-header ul li.bars a{
-    width: 25px;
-}
+
+
 
 section article {
     padding: 10px;
@@ -130,11 +128,12 @@ footer a {
     footer{
         text-align: center;
     }
-    header ul li a{
+    header ul li {
         display: none;
     }
- 
-    .bars img {
+     .bars {
         display: block;
+        width: 30px;
     }
+    
 }
