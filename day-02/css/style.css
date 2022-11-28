@@ -158,6 +158,8 @@ color: white;
 .all:hover{
     background-color: red;
     transition: 2s;
+   
+
 }
 
 .cycle{
@@ -168,13 +170,13 @@ color: white;
     position:absolute;
     top: -15px;
     right: -15px;
-   
-}
+} 
 .all:hover .cycle{
     transition-duration: 2s;
     top:15px;
     right: 200px;
     opacity: 0;
+    z-index: -1;
 }
 .blue {
     height: 100px;
