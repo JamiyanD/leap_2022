@@ -22,7 +22,7 @@ console.log(myDecision);
 let x = 1;
 let y = 2;
 let z = 3;
-//lert(x*x + y*y - z*z*z / 240 * 175);
+//alert(x*x + y*y - z*z*z / 240 * 175);
 console.log(7%2);
 console.log(36%19);//uldegdliig haruuldag
 let result = "30" - 10;

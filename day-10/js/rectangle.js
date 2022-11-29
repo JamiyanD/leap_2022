@@ -1,12 +1,12 @@
-var path = new Path();
-path.strokeColor = 'black';
-var start = new Point(100,100);
-path.moveTo(start);
-path.lineTo(start + [100,-50]);
+       var path = new Path();
+       path.strokeColor = 'black';
+       var start = new Point(100,100);
+       path.moveTo(start);
+       path.lineTo(start + [100,-50]);
 
        
        
-       var topLeft = new Point(10, 50);
+        var topLeft = new Point(200, 10);
         var rectSize = new Size(200, 100);
         var rect = new Rectangle(topLeft, rectSize);
         var path = new Path.Rectangle(rect,4);

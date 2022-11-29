@@ -1,7 +1,8 @@
-        var topLeft = new Point(50, 30);
+        
+        var topLeft = new Point(50, 80);
         var rectSize = new Size(100, 100);
         var rect = new Rectangle(topLeft, rectSize);
-        var path = new Path.Circle(rect,20);
+        var path = new Path.Circle(rect,50);
         path.fillColor = 'red';
         path.strokeColor = 'black';
         console.log(rect); // { x: 10, y: 20, width: 200, height: 100 }

@@ -55,8 +55,9 @@ let message = "Hi,I added ";
 let sms = "It is ";
 let plus = " + "
 
-alert (message + plus + b + c);
+//alert (message +  b + plus + c);
 let d = b + c;
-alert(sms + d);
+//alert(sms + d);
+console.log(typeof(message));
 
 
