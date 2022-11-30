@@ -75,16 +75,17 @@ console.log(tipResult1);*/
 //console.log(registerNumber.substr(0,2));
 //console.log(registerNumber.substr(2,10));
 
-//const registerChar = registerNumber.substr(0,2);
-//const registerNum = registerNumber.substr(2,10);
+/*const registerChar = registerNumber.substr(0,2);
+console.log(registerChar);
+const registerNum = registerNumber.substr(2,10);
 
-/*if(!Number.isInteger(Number(registerChar)) && Number.isInteger(Number(registerNum)) && registerNumber.length == 10){
+if(!Number.isInteger(Number(registerChar)) && Number.isInteger(Number(registerNum)) && registerNumber.length == 10){
    console.log("correct");
 }else{
    console.log("wrong");
-}
-*/
-let phoneNumber = prompt('utasni dugaaraa oruulna uu');
+}*/
+
+/*let phoneNumber = prompt('utasni dugaaraa oruulna uu');
 let phone1 = Number(phoneNumber);
 const phoneChar = phoneNumber.substr(0,4);
 const phoneNum = phoneNumber.substr(4,12);
@@ -94,23 +95,13 @@ if(phoneNumber.substr(0,4) == +976 && phoneNumber.length == 12  ){
     console.log('mongol dugaar mun bna');
 }else{
     console.log('mongol dugaar bish bna')
-}
+}*/
 //console.log(Number("abc"));
 //console.log(Number.isInteger(Number("abc")));
 //console.log(Number("12345678"));
 //console.log(Number.isInteger(Number("12345678")));
 
-
-
-//console.log(str.toUpperCase());
-//console.log(str.toLowerCase());
-
-//let firstName = "John";
-//let fullName = firstName.concat(" ","Smith"); // ehend n zalgaj baigaa
-//console.log(fullName);
-//console.log(firstName);
-
-//let str = "JavaScript String";
-
-//console.log(str.substr(0,11));
-//console.log(str.substr(11,6));
+let rawString = '   hi';
+console.log(rawString);
+let strippedString = rawString.trim();
+console.log(strippedString);
