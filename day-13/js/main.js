@@ -32,7 +32,7 @@ console.log(Math.sqrt(9));// yzguur
 console.log(Math.ceil(Math.random() * 6));*/
 
 
-/*let answer = "yes";
+let answer = "yes";
 
 while (answer == "yes" ) {
     answer = prompt("Do you wanna coninue the game").toLowerCase();
@@ -40,9 +40,9 @@ while (answer == "yes" ) {
         alert("thanks")
     }
 } 
-console.log('game over');*/
+console.log('game over');
  
-let too = Number(prompt("too oruulna uu"));
+/*let too = Number(prompt("too oruulna uu"));
 
 let count = 0;
 
@@ -54,4 +54,4 @@ while (count < too){
    // console.log(count);
    sum = sum  + count;// omnoh niilber deeree nemegdej baiga ucir niilber n garch baiga
     console.log(sum);
-}
+}*/

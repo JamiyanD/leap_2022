@@ -57,7 +57,7 @@ let min = Math.min(x, y);
 console.log(Math.ceil(Math.random() * (max - min) + min));
 
 let count = 1;
-while(count <= 50){
+while(count <= 10){
     console.log(Math.ceil(Math.random() * (max - min) + min));
     count = count + 1;
 }
