@@ -1,4 +1,4 @@
-var a = ((96 + 108 + 89)/3);
+/*var a = ((96 + 108 + 89)/3);
 console.log(a);
 var b = ((88 + 91 +110)/3);
 console.log(b);
@@ -13,7 +13,7 @@ if(a < 100 && b < 100){
     console.log('b ylagch');
 }else if (a == b){
     console.log('tentssen')
-}
+}*/
 
 /*let n = prompt('butarhai too oruulna uu');
 let N = Number(n);
@@ -33,7 +33,7 @@ if (n.length == 3 && Number.isInteger(Number(n)) && n[0] != 0 && n[2] != 0 && n[
     console.log('3 orontoi bish bna');
 }*/
 
-let n = prompt('2 orontoi too oruulna uu');
+//let n = prompt('2 orontoi too oruulna uu');
 
 /*if (n.length == 2 && Number.isInteger(Number(n))){
     console.log(n[0] + 1 + n[1]);
@@ -42,9 +42,31 @@ else {
     console.log("2 orontoi bish bna");312
 }*/
 
-if (n > 9 && n < 100){
-    console.log(n[0] + 1 + n[1]);
+/*if (n > 9 && n < 100 && n.length == 2){
+    console.log(n[0] + Math.floor(Math.random() * 9) + n[1]);
 } else {
     console.log("2 orontoi bish bna");
+}*/
+
+let x = Number(prompt("x ee oruulna uu"));
+let y = Number(prompt("y ee oruulna uu"));
+
+let max = Math.max(x, y);
+let min = Math.min(x, y);
+
+console.log(Math.ceil(Math.random() * (max - min) + min));
+
+let count = 1;
+while(count <= 50){
+    console.log(Math.ceil(Math.random() * (max - min) + min));
+    count = count + 1;
 }
 
+/*let count = 1;
+console.log('loop starts')
+while (count <= 10) {
+    console.log(count);
+    count = count + 1;
+}
+
+console.log('loop ended');*/

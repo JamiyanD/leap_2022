@@ -1,8 +1,8 @@
-let a = 2;
-let b = 3;
-let sum = a * a + b * b;
-let c = Math.pow(sum, 0.5);
+let y = Number(prompt("y ee oruulna uu"));
+let z = Number(prompt("z ee oruulna uu"));
 
-console.log(c);
+let x = Math.sqrt(Math.pow(y, 2) + Math.pow(z, 2));
+console.log(x);
+
 
 
