@@ -138,6 +138,7 @@ let fibonachiin_daraalal;
 //     }
 // }
 
+
 let palindromic_number;
 
 // let a = prompt("dsada");
