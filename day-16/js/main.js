@@ -94,3 +94,21 @@ function multiplyThreeNumbers(x , y, z){
 const result = multiplyThreeNumbers(4, 5, 6);
 console.log(result);
 
+function fullname(lastname, firstname){
+    console.log(lastname + firstname);
+}
+fullname(`Duurenjargal`, ` Jamiyan`);
+
+function fullName(lastName, firstName){
+    return lastName + firstName;
+}
+console.log(fullName(`Duurenjargal`, ` Jamiyan`));
+
+function max(a, b){
+    if(a > b){
+        return a + ` is bigger than ` + b;
+    } else{
+        return b + ` is bigger than ` + a;
+    }
+}
+console.log(max(6, 99));

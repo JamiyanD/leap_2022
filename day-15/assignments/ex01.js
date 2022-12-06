@@ -66,6 +66,15 @@ for(i = 0; i < array.length; i++){
 }
 console.log(max);
 
+let n = 5;
+let Sum = ``;
+for(i = 1; i <= n; i++){
+   
+    Sum =  Sum + i
+    console.log(Sum);
+}
+
+
 
 
 
