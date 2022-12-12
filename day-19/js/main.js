@@ -37,3 +37,5 @@ console.log(teacherDolgor.firstName);
 console.log(Object.keys(teacherDolgor));
 console.log(Object.values(teacherDolgor));
 
+
+
