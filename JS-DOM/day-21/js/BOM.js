@@ -33,10 +33,10 @@ function runTimerInterval () {
 
 function startInterval(){
     let now = new Date();
-    let myTimer = document.getElementById("myTimer").innerHTML = now.gethours ;
+    let myTimer = document.getElementById("myTimer").innerHTML = now ;
     
 }
 
-button = document.getElementById("button");
+button = document.getElementById("button1");
 
 button.addEventListener("click", runTimerInterval);

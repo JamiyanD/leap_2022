@@ -4,13 +4,41 @@
 // console.log(document.getElementsByClassName("dummy")[1]);
 
 
-let img = document.getElementById("image").src = "./img/grey.jpg";
-console.log(img);
-function changeImg(){
-    if(img ){
-        img.style = "margin: 50px;"
-    }
+
+
+function changeImg() {
+    let image = document.getElementById("image");
+    image.src = "./img/grey.jpg"
 }
-let button = document.getElementById("button");
-console.log(button);
-button.addEventListener("click", changeImg);
+document.getElementById("grey").addEventListener("click", changeImg);
+function changeImgRed() {
+    let image = document.getElementById("image");
+    image.src = "./img/red.webp"
+}
+document.getElementById("red").addEventListener("click", changeImgRed);
+function changeImgGreen() {
+    let image = document.getElementById("image");
+    image.src = "./img/green.jpg"
+}
+document.getElementById("green").addEventListener("click", changeImgGreen);
+
+
+
+
+
+function removeItem() {
+    let select = document.getElementById("colorSelect");
+    select.removeChild(select.firstElementChild)
+    // select.remove();
+}
+document.getElementById("button1").addEventListener("click", removeItem)
+
+
+
+
+
+function alertBoard() {
+    let select = document.getElementById("colorSelect");
+    alert((`red \n green \n white \n black`));
+}
+document.getElementById("button2").addEventListener("click", alertBoard);
