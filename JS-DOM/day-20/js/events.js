@@ -39,24 +39,7 @@ console.log(p1);
 let p2 = document.getElementById("hehe");
 
 function pFunc(){
-    p1.style = "background-color: red;"
+    document.getElementById("haha")
     p2.style = "background-color: yellow;"
 }
 button.addEventListener("click", pFunc)
-
-console.log(document.getElementById("clock"));
-function startTime() {
-    const today = new Date();
-    let h = today.getHours();
-    let m = today.getMinutes();
-    let s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-    setTimeout(startTime, 1000);
-  }
-  startTime()
-  function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
-  }
