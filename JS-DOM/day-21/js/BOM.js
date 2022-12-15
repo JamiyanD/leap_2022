@@ -37,6 +37,6 @@ function startInterval(){
     
 }
 
-button = document.getElementById("button1");
+button = document.getElementById("button");
 
 button.addEventListener("click", runTimerInterval);
