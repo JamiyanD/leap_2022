@@ -1,11 +1,4 @@
 
-// document.getElementById("helloText").innerHTML = "Hello World!";
-// document.getElementsByClassName("dummy")[0].innerHTML = "Hello Dummy";
-// console.log(document.getElementsByClassName("dummy")[1]);
-
-
-
-
 function changeImg() {
     let image = document.getElementById("image");
     image.src = "./img/grey.jpg"
@@ -38,7 +31,6 @@ document.getElementById("button1").addEventListener("click", removeItem)
 
 
 function alertBoard() {
-    let select = document.getElementById("colorSelect");
     alert((`red \n green \n white \n black`));
 }
 document.getElementById("button2").addEventListener("click", alertBoard);
