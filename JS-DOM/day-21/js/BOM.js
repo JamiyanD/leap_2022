@@ -31,12 +31,12 @@ function startInterval(){
     let now = new Date();
     let myTimer = document.getElementById("myTimer").innerHTML = now ;
 }
-<<<<<<< HEAD
+// <<<<<<< HEAD
 
 button = document.getElementById("button");
 
 button.addEventListener("click", runTimerInterval);
-=======
+// =======
 button = document.getElementById("button");
 button.addEventListener("click", runTimerInterval);
->>>>>>> 4036fef37979478ba036ce970d8a456edbccbf95
+// >>>>>>> 4036fef37979478ba036ce970d8a456edbccbf95
