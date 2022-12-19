@@ -32,7 +32,7 @@ if (x == y) {
 function findRegisterNumber(registerNumber) {
     const registerNum = registerNumber.substr(2, 10);
     if (registerNumber.length == 10 && !Number.isInteger(Number(registerNumber[0])) && !Number.isInteger(Number(registerNumber[1])) &&
-        Number.isInteger(Number(registerNum)) && registerNumber.length == 10) {
+        Number.isInteger(Number(registerNum)) ) {
         return "RD mon"
     } else {
         return "RD bish"

@@ -12,16 +12,16 @@ let start = 0;
  }*/
 
 
-/*const max = 20;
+const maxy = 20;
 let start = 0;
- while(start <= max){
+ while(start <= maxy){
     if (start % 2 != 0){
         console.log(start);
     }
     
     start = start + 1;
     
- }*/
+ }
 
  /*let str = "Life is beautiful";
  let count = 0;

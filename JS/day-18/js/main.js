@@ -1,113 +1,113 @@
 
-// let shiftArr = (arr) => {
-//     let tempArr = [];
-//     for(i = 0; i < arr.length; i++){
-//         if(i != 0){
-//             tempArr.push(arr[i]);
-//         }
-//     }
-//     return tempArr;
-// }
+let shiftArr = (arr) => {
+    let tempArr = [];
+    for(i = 0; i < arr.length; i++){
+        if(i != 0){
+            tempArr.push(arr[i]);
+        }
+    }
+    return tempArr;
+}
 
-// let arr1 = [1, 2, 3];
-// console.log(shiftArr(arr1));
-// const array = [1, 2, 3];
-// const firstElement = array.shift();
-// console.log(array);
-// console.log(firstElement)
+let arr1 = [1, 2, 3];
+console.log(shiftArr(arr1));
+const array = [1, 2, 3];
+const firstElement = array.shift();
+console.log(array);
+console.log(firstElement)
 
-// let unshiftArray = function (arr, number){
-//     let tempArray = [];
-//     tempArray.push(number);
+let unshiftArray = function (arr, number){
+    let tempArray = [];
+    tempArray.push(number);
 
-//     for(i = 0; i < arr.length; i++){
-//         tempArray.push(arr[i]);
-//     }
-//     return tempArray
-// }
+    for(i = 0; i < arr.length; i++){
+        tempArray.push(arr[i]);
+    }
+    return tempArray
+}
 
-// let arr2 = [5, 6, 7];
-// console.log(unshiftArray(arr2, 1 ));
+let arr2 = [5, 6, 7];
+console.log(unshiftArray(arr2, 1 ));
 
-// const array1 = [1, 2, 3];
-// console.log(array1.unshift(4, 5));
-// console.log(array1);
+const array1 = [1, 2, 3];
+console.log(array1.unshift(4, 5));
+console.log(array1);
 
-// let sortArray = [1, 2, 8, 7, -1, 10];
-// sortArray[0] = sortArray[4];
+let sortArray = [1, 2, 8, 7, -1, 10];
+sortArray[0] = sortArray[4];
 
-// function sortingAlgorithm(arr){
+function sortingAlgorithm(arr){
     
-//     for(i = 0; i < arr.length - 2; i++){
-//         let indexMin = i;
+    for(i = 0; i < arr.length - 2; i++){
+        let indexMin = i;
       
-//     }
-// }
-// console.log(sortingAlgorithm(sortArray));
+    }
+}
+console.log(sortingAlgorithm(sortArray));
 
-// console.log('array sorting');
-// sortArray.sort();
-// console.log(sortArray);
+console.log('array sorting');
+sortArray.sort();
+console.log(sortArray);
 
-// function arrayReverse(arr){
-//     let tempArray = [];
-//     for (i = arr.length - 1; i >= 0 ; i--){
-//         tempArray.push(arr[i]);
-//     }
-//     return tempArray;
-// }
+function arrayReverse(arr){
+    let tempArray = [];
+    for (i = arr.length - 1; i >= 0 ; i--){
+        tempArray.push(arr[i]);
+    }
+    return tempArray;
+}
 
-// let arrReverse = [4, 5, 1, 8]
-// console.log(arrayReverse(arrReverse));
-// const reversed = arrReverse.reverse();
-// console.log('reversed', reversed)
+let arrReverse = [4, 5, 1, 8]
+console.log(arrayReverse(arrReverse));
+const reversed = arrReverse.reverse();
+console.log('reversed', reversed)
 
 
-// const nameslice  = [`bat`, `dorj`, `purev`, `davaa`, `tomor`];
-// console.log(nameslice.slice(2));
+const nameslice  = [`bat`, `dorj`, `purev`, `davaa`, `tomor`];
+console.log(nameslice.slice(2));
 
-// function nameSlice(arr, index){
-//     let arr5 = [];
-//     for(i = index; i < arr.length; i++){
-//         arr5.push(arr[i])
-//     }
-//     return arr5
-//     // for(i = 0; i < index; i++){
-//     //     arr.shift()
-//     // }
-//     // return arr
-// }
-// console.log(nameSlice(nameslice, 1));
+function nameSlice(arr, index){
+    let arr5 = [];
+    for(i = index; i < arr.length; i++){
+        arr5.push(arr[i])
+    }
+    return arr5
+    // for(i = 0; i < index; i++){
+    //     arr.shift()
+    // }
+    // return arr
+}
+console.log(nameSlice(nameslice, 1));
 
-// const spliceNames = [`davaa`, `lhagva`, `purev`, `bymba`];
-// spliceNames.splice(1, 0 , `mygmar`);
-// spliceNames.splice(4, 0, `baasan`)
-// console.log(spliceNames);
+const spliceNames = [`davaa`, `lhagva`, `purev`, `bymba`];
+spliceNames.splice(1, 0 , `mygmar`);
+spliceNames.splice(4, 0, `baasan`)
+console.log(spliceNames);
 
-// const shoppingCart = [`Milk`, `Coffee`, `Tea`, `Honey`];
-// console.log(shoppingCart.includes(`Milk`));
-// shoppingCart.unshift(`meat`);
-// console.log(shoppingCart);
+const shoppingCart = [`Milk`, `Coffee`, `Tea`, `Honey`];
+console.log(shoppingCart.includes(`Milk`));
+shoppingCart.unshift(`meat`);
+console.log(shoppingCart);
 
-// // console.log(shoppingCart.includes(`sugar`));
-// // shoppingCart.push(`sugar`);
-// // console.log(shoppingCart);
+console.log(shoppingCart.includes(`sugar`));
+shoppingCart.push(`sugar`);
+console.log(shoppingCart);
 
-// // shoppingCart.splice(3, 1);
-// // shoppingCart.pop();
-// // console.log(shoppingCart);
+shoppingCart.splice(3, 1);
+shoppingCart.pop();
+console.log(shoppingCart);
 
-// // shoppingCart.splice(2,1,`Green tea`);
-// // console.log(shoppingCart);
+shoppingCart.splice(2,1,`Green tea`);
+console.log(shoppingCart);
 
-// let arrays = [`facebook`, `google`, `microsoft`, `apple`, `ibm`, `oracle`];
-// // arrays.sort();
-// // arrays.reverse()
-// // arrays.shift();
-// arrays.splice(arrays.length  / 2 - 1 , 2);
-// // arrays.pop()
-// // arrays.splice(0, arrays.length)
-// console.log(arrays);
+let arrays = [`facebook`, `google`, `microsoft`, `apple`, `ibm`, `oracle`];
+// arrays.sort();
+// arrays.reverse()
+// arrays.shift();
+arrays.splice(arrays.length  / 2 - 1 , 2);
+// arrays.pop()
+// arrays.splice(0, arrays.length)
+console.log(arrays);
 
 
 

@@ -1,16 +1,16 @@
-// let numbers = [1, 2, 5, 3, 5, 6, 7, 8];
+let numbers = [1, 2, 5, 3, 5, 6, 7, 8];
 
-// for(i = 0; i < numbers.length; i++){
-//     numbers[i]=numbers[i] + 1;
+for(i = 0; i < numbers.length; i++){
+    numbers[i]=numbers[i] + 1;
 
-// }
-// console.log(numbers);
+}
+console.log(numbers);
 
-// for(i = 0; i < numbers.length; i++){
-//     if(numbers[i] % 2 == 0){
-//         console.log(numbers[i]);
-//     }
-// }
+for(i = 0; i < numbers.length; i++){
+    if(numbers[i] % 2 == 0){
+        console.log(numbers[i]);
+    }
+}
 
 // var itCompanies = [`Facebook`, `Google`, `Microsoft`, `Apple`, `IBM`, `Oracle`, `Amazon`];
 
@@ -31,16 +31,16 @@
 // }
 
 
-// let a = `НҮүрс`;
-// let data = ['Засгийн', 'газарт', '6.4', 'сая', 'тонн', 'Нүүрс', 'алдагдсан', 'гэх', 'мэдээлэл', 'ирээгүй', 'байна.', 'Бодит', 'байдалд', 'ийм', 'их', 'хэмжээний', 'нүүрс', 'алдагдсан', 'гэх', 'асуудал', 'эргэлзээтэй', 'байна.', 'Хууль', 'хяналтын', 'байгууллага', 'хяналт', 'шалгалтын', 'ажил', 'явуулж', 'байна'];
-// let score = 0;
-// for(i = 0; i < data.length; i++){
-//     if(data[i] == a || data[i] == a.toUpperCase ){
-//         score = score + 1
-//     }
+let a = `Нүүрс`;
+let data = ['Засгийн', 'газарт', '6.4', 'сая', 'тонн', 'Нүүрс', 'алдагдсан', 'гэх', 'мэдээлэл', 'ирээгүй', 'байна.', 'Бодит', 'байдалд', 'ийм', 'их', 'хэмжээний', 'нүүрс', 'алдагдсан', 'гэх', 'асуудал', 'эргэлзээтэй', 'байна.', 'Хууль', 'хяналтын', 'байгууллага', 'хяналт', 'шалгалтын', 'ажил', 'явуулж', 'байна'];
+let score = 0;
+for(i = 0; i < data.length; i++){
+    if(data[i] == a || data[i] == a.toUpperCase ){
+        score = score + 1
+    }
 
-// }
-// console.log(score);
+}
+console.log(score);
 
 // let arr1 = [3, 45, 23, 78, 34];
 // let arr2 = [4, 2, 34, 4, 12, 1];
@@ -61,8 +61,8 @@
 let array = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290];
 let sum = 0;
 for(i = 0; i < array.length; i++){
-    // sum = sum + array[i]
-    max = Math.max()
+    sum = sum + array[i]
+    max = Math.max(array[i])
 }
 console.log(max);
 

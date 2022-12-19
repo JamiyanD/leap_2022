@@ -1,63 +1,63 @@
 
-let i = 4 > 3;
-console.log(i);
+// let i = 4 > 3;
+// console.log(i);
 
-let iii = 4 < 3;
-console.log(iii);
+// let iii = 4 < 3;
+// console.log(iii);
 
-let ii = 4 >= 3;
-console.log(ii);
+// let ii = 4 >= 3;
+// console.log(ii);
 
-let iv = 4 <= 3;
-console.log(iv);
+// let iv = 4 <= 3;
+// console.log(iv);
 
-let v = 4 == 4;
-console.log(v);
+// let v = 4 == 4;
+// console.log(v);
 
-let vi = 4 === 4;
-console.log(vi);
+// let vi = 4 === 4;
+// console.log(vi);
 
-let vii = 4 != 4;
-console.log(vii);
+// let vii = 4 != 4;
+// console.log(vii);
 
-let iix = 4 !== 4;
-console.log(iix);
+// let iix = 4 !== 4;
+// console.log(iix);
 
-let ix = 4 != "4";
-console.log(ix);
+// let ix = 4 != "4";
+// console.log(ix);
 
-let x = 4 =="4";
-console.log(x);
+// let x = 4 =="4";
+// console.log(x);
 
-let xi = 4 === "4";
-console.log(xi);
+// let xi = 4 === "4";
+// console.log(xi);
 
-let one = 4 > 3 && 10 < 12;
-console.log(one);
+// let one = 4 > 3 && 10 < 12;
+// console.log(one);
 
-let two = 4 > 3 && 10 > 12;
-console.log(two);
+// let two = 4 > 3 && 10 > 12;
+// console.log(two);
 
-let three = 4 > 3 || 10 < 12;
-console.log(three);
+// let three = 4 > 3 || 10 < 12;
+// console.log(three);
 
-let four = 4 > 3 || 10 > 12;
-console.log(four);
+// let four = 4 > 3 || 10 > 12;
+// console.log(four);
 
-let five = !(4 > 3);
-console.log(five);
+// let five = !(4 > 3);
+// console.log(five);
 
-let six = !(4 < 3);
-console.log(six);
+// let six = !(4 < 3);
+// console.log(six);
 
-let eight = !(4 > 3 && 10 < 12);
-console.log(eight);
+// let eight = !(4 > 3 && 10 < 12);
+// console.log(eight);
 
-let nine = !(4 > 3 && 10 > 12);
-console.log(nine);
+// let nine = !(4 > 3 && 10 > 12);
+// console.log(nine);
 
-let ten = !(4 === "4");
-console.log(ten);
+// let ten = !(4 === "4");
+// console.log(ten);
 
 /*let myAge = prompt('minii nas');
 let yourAge = prompt('chinii nas');

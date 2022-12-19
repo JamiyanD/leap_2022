@@ -12,40 +12,40 @@
 
 
 let firstArray = [1, 2, 3, 4, 5, 6, 6, 5];
-// console.log(firstArray);
+console.log(firstArray);
 
-// function findNumber(a, array){
-//     for(i = 0; i < array.length; i++){
-//         if(array.includes(a)){
-//            return a + ' davhardsan baina'
+function findNumber(a, array){
+    for(i = 0; i < array.length; i++){
+        if(array.includes(a)){
+           return a + ' davhardsan baina'
 
-//         } else{
-//             return -1
-//         }
-//     }
-// }
-// console.log(findNumber(6, firstArray));
-
-
-
-// let min = 10;
-// let max = 20;
-// function findRandom(){
-//         return Math.ceil(Math.random() * (max - min) + min )
-// }
-// console.log(findRandom());
+        } else{
+            return -1
+        }
+    }
+}
+console.log(findNumber(6, firstArray));
 
 
 
+let min = 10;
+let max = 20;
+function findRandom(){
+        return Math.ceil(Math.random() * (max - min) + min )
+}
+console.log(findRandom());
 
-// let b = 0;
-// function medium(b, array){
-//     for(i = 0; i < array.length; i++){
-//         b = b + array[i]
-//     }
-//     return b
-// }
-// console.log(medium(b, firstArray))
+
+
+
+let b = 0;
+function medium(b, array){
+    for(i = 0; i < array.length; i++){
+        b = b + array[i]
+    }
+    return b
+}
+console.log(medium(b, firstArray))
 
 
 

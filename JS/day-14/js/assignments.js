@@ -1,20 +1,20 @@
 
 
-// let a = prompt("123");
-// let count = 0;
-// let sum = 0;
-// while(count < a.length){
-//     //console.log(a.charAt(count));
-//     sum = sum + Number(a.charAt(count));
-//     count = count + 1;
-//     console.log(sum);
-// }
+let a = prompt("123");
+let count = 0;
+let sum = 0;
+while(count < a.length){
+    //console.log(a.charAt(count));
+    sum = sum + Number(a.charAt(count));
+    count = count + 1;
+    console.log(sum);
+}
 
-// let str = "123";
-// for(count = 0;count < str.length; count++){
-//     sum = str.charAt(count);
-//     console.log(sum);
-// }
+let str = "123";
+for(count = 0;count < str.length; count++){
+    sum = str.charAt(count);
+    console.log(sum);
+}
 
 // let N = Number(prompt("give me number"));
 // let sum = 0;
@@ -155,7 +155,7 @@ let palindromic_number;
 // }
 
 
-let randomoor_ogogdson_oldog;
+// let randomoor_ogogdson_oldog;
 // let b = 1;
 // let a = 67;
 // while(b >= 0 && b < 100){
@@ -170,41 +170,41 @@ let randomoor_ogogdson_oldog;
 
 
 
-let x = `12341`;
-let sum0 = 0;
-let sum1 = 0;
-let sum2 = 0;
-let sum3 = 0;
-let sum4 = 0;
-console.log(typeof x);
-for(i = 0; i < x.length; i++){
-    if(x[i] == `0`){
-        sum0 = sum0 + 1
-    }
-}
-for(i = 0; i < x.length; i++){
-    if(x[i] == `1`){
-        sum1 = sum1 + 1
-    }
-}
-for(i = 0; i < x.length; i++){
-    if(x[i] == `2`){
-        sum2 = sum2 + 1
-    }
-}
-for(i = 0; i < x.length; i++){
-    if(x[i] == `3`){
-        sum3 = sum3 + 1
-    }
-}
-for(i = 0; i < x.length; i++){
-    if(x[i] == `4`){
-        sum4 = sum4 + 1
-    }
-}
+// let x = `12341`;
+// let sum0 = 0;
+// let sum1 = 0;
+// let sum2 = 0;
+// let sum3 = 0;
+// let sum4 = 0;
+// console.log(typeof x);
+// for(i = 0; i < x.length; i++){
+//     if(x[i] == `0`){
+//         sum0 = sum0 + 1
+//     }
+// }
+// for(i = 0; i < x.length; i++){
+//     if(x[i] == `1`){
+//         sum1 = sum1 + 1
+//     }
+// }
+// for(i = 0; i < x.length; i++){
+//     if(x[i] == `2`){
+//         sum2 = sum2 + 1
+//     }
+// }
+// for(i = 0; i < x.length; i++){
+//     if(x[i] == `3`){
+//         sum3 = sum3 + 1
+//     }
+// }
+// for(i = 0; i < x.length; i++){
+//     if(x[i] == `4`){
+//         sum4 = sum4 + 1
+//     }
+// }
 
-console.log(`0 : ${sum0}`)
-console.log(`1 : ${sum1}`)
-console.log(`2 : ${sum2}`)
-console.log(`3 : ${sum3}`)
-console.log(`4 : ${sum4}`)
+// console.log(`0 : ${sum0}`)
+// console.log(`1 : ${sum1}`)
+// console.log(`2 : ${sum2}`)
+// console.log(`3 : ${sum3}`)
+// console.log(`4 : ${sum4}`)

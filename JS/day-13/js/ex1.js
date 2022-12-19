@@ -9,33 +9,33 @@ while (count < 10) {
 // program to check if a number is prime or not
 
 // take input from the user
-const number = prompt("Enter a positive number: ");
-let isPrime = true;
-// check if number is greater than 1
- if (number > 1) {
+// const number = prompt("Enter a positive number: ");
+// let isPrime = true;
+// // check if number is greater than 1
+//  if (number > 1) {
 
-    // looping through 2 to number-1
-    for (let i = 2; i < number; i++) {
-        if (number % i == 0) {
-            isPrime = false;
-        }
-    }
+//     // looping through 2 to number-1
+//     for (let i = 2; i < number; i++) {
+//         if (number % i == 0) {
+//             isPrime = false;
+//         }
+//     }
 
-    if (isPrime) {
-        console.log(`${number} is a prime number`);
-    } else {
-        console.log(`${number} is a not prime number`);
-    }
-}
-/*let a = Number(prompt("duriin too oruulna uu"));
-let count = 0;
-let sum = 0;
-while(count < a){
-    console.log(count);
-    sum = count + sum;
-    count = count + 2;
-    console.log(sum);
-}*/
+//     if (isPrime) {
+//         console.log(`${number} is a prime number`);
+//     } else {
+//         console.log(`${number} is a not prime number`);
+//     }
+// }
+// let a = Number(prompt("duriin too oruulna uu"));
+// let count = 0;
+// let sum = 0;
+// while(count < a){
+//     console.log(count);
+//     sum = count + sum;
+//     count = count + 2;
+//     console.log(sum);
+// }
 
 // let a = Number(prompt("duriin too oruulna uu"));
 // let count = 0;
@@ -47,11 +47,11 @@ while(count < a){
 // }
 // console.log(urjver);
 
-//let a = Number(prompt("duriin too oruulna uu"));
-//let b = Math.ceil(Math.random()*100) ;
+// let a = Number(prompt("duriin too oruulna uu"));
+// var b = Math.ceil(Math.random()*100) ;
 
 // let x = 5;
-// let b ="     *"
+// var b ="     *"
 // count = "";
 
 // while(count.length <= x ){
@@ -62,7 +62,7 @@ while(count < a){
 //     console.log(b + count);
     
 // }
-var pyramid;
+// var pyramid;
 // var n = 5;
 // for (var i = 1; i <= n; i++) {
 //     var s = "";
@@ -80,8 +80,8 @@ var pyramid;
 //     console.log(s);
 // }
 
-let square;
-let n = 5;
+// let square;
+// let n = 5;
 // for(let i = 1; i <= n; i++){
 //     let s = "";
 //     if(i == 1){

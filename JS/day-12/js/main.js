@@ -1,4 +1,4 @@
-/*let a = "hi";
+let a = "hi";
 let b = "hi";
 
 console.log(a < b); // usgiin daraallaar
@@ -49,7 +49,7 @@ const numberInput = Number(input);
 //const numberInputPrompt = Number (prompt('give me your money'));
 
 let tipResult = (tip1 >= 5000 && tip1 <= 30000) ? tip1 * 1.15 : tip1 * 1.2;
-console.log(tipResult1);*/
+console.log(tipResult1);
 
 //console.log('its dog');
 //console.error('it is error');
