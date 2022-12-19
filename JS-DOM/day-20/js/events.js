@@ -2,7 +2,7 @@ let myButton = document.getElementById("myButton");
 let color = "green";
 
 function changeColors(){
-    if(color === "green"){ 
+    if(gi){ 
         myButton.style = `background-color: ${color}`;
         color = "white";
     } else {
