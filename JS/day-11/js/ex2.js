@@ -1,4 +1,3 @@
-
 // let i = 4 > 3;
 // console.log(i);
 
@@ -26,7 +25,7 @@
 // let ix = 4 != "4";
 // console.log(ix);
 
-// let x = 4 =="4";
+// let x = 4 == "4";
 // console.log(x);
 
 // let xi = 4 === "4";
@@ -59,22 +58,17 @@
 // let ten = !(4 === "4");
 // console.log(ten);
 
-/*let myAge = prompt('minii nas');
-let yourAge = prompt('chinii nas');
-if (myAge > yourAge){
-    console.log('bi hogshin');
-} else{
-    console.log('ci hogshin');
-}*/
+// let myAge = prompt("minii nas");
+// let yourAge = prompt("chinii nas");
+// if (myAge > yourAge) {
+//   console.log("bi hogshin");
+// } else {
+//   console.log("ci hogshin");
+// }
 
-/*let day = prompt('odor oruulna uu');
-if(day <= 5){
-    console.log('ajliin odor')
-} else if(day >= 6){
-    console.log('amraltiin odr')
-}*/
-
-let hours = prompt('ajillasan tsagaa oruulna uu');
-console.log(hours * 28);
-
-
+// let day = prompt("odor oruulna uu");
+// if (day <= 5) {
+//   console.log("ajliin odor");
+// } else if (day >= 6) {
+//   console.log("amraltiin odr");
+// }
